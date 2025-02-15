@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tesla Infinite Scroll Filter",
+    "version": "1.0",
+    "description": "Load the page, fill input, wait for reload, scroll infinite, and then filter articles.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo.png",
+        "32": "logo.png"
+      }
+    }
+}
