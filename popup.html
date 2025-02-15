@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Run Script</title>
+    <title>Tesla Script</title>
     <style>
       body {
         min-width: 200px;
@@ -15,10 +15,32 @@
         padding: 8px;
         font-size: 16px;
       }
+      #status {
+        margin-top: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        background-color: #f8f8f8;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      h1 {
+        font-size: 14px;
+      }
+      .center {
+        text-align: center;
+      }
+      .mb-1 {
+        margin-bottom: 10px;
+      }
     </style>
   </head>
   <body>
+    <div class="center mb-1"><img src="logo.png" alt=""></div>
+    <h1 class="center mb-1">Filter car offers</h1>
     <button id="runButton">Run Script</button>
+    <div id="status">Status: Ready</div>
     <script src="popup.js"></script>
   </body>
 </html>

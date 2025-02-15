@@ -14,7 +14,7 @@
     await new Promise(resolve => setTimeout(resolve, 5000));
 
     // 3. Scroll to the bottom N times to load all infinite scroll pages.
-    const nTimes = 10;        // Number of times to scroll down (adjust as needed)
+    const nTimes = 5;        // Number of times to scroll down (adjust as needed)
     const delayScroll = 2000; // Delay between scrolls in milliseconds
 
     for (let i = 0; i < nTimes; i++) {
@@ -53,4 +53,8 @@
           console.log("Hiding element:", element, "Reason(s):", reasons.join(", "));
         }
     });
+
+    chrome.runtime.sendMessage({ action: "closePopup" });
+
+    window.scrollTo(0, 0, { behavior: 'smooth' });
 })();
