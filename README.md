@@ -1,4 +1,4 @@
-## Tesla Inventory Filter <img src="https://github.com/ilian6806/tesla-inventory-filter/blob/master/logo.png?raw=true" width="40" height="40" align="right">
+## Tesla Inventory Filter <img src="https://github.com/ilian6806/tesla-inventory-filter/blob/master/logo.png?raw=true" width="32" height="32" align="right">
 Tesla Inventory site has only a few filters and it's hard to find the car you want. This script allows you to filter the inventory by more options. I made for myself. I'm sharing it in case it's useful for someone else.
 
 ### How to install
