@@ -1,5 +1,5 @@
 ## Tesla Inventory Filter <img src="https://github.com/ilian6806/tesla-inventory-filter/blob/master/logo.png?raw=true" width="32" height="32" align="right">
-Tesla Inventory site has only a few filters and it's hard to find the car you want. This script allows you to filter the inventory by more options. I made for myself. I'm sharing it in case it's useful for someone else.
+Tesla Inventory site has only a few filters and it's hard to find the car you want. This script allows you to filter the inventory by more options. I made it for myself. I'm sharing it in case it's useful for someone else.
 
 ### How to install
 1. Download the files from this repository
@@ -13,4 +13,8 @@ Tesla Inventory site has only a few filters and it's hard to find the car you wa
 ```
 https://www.tesla.com/de_DE/inventory/used/m3?TRIM=LRAWD&INTERIOR=PREMIUM_BLACK&arrangeby=plh&range=0
 ```
-3. Click on Run Script button
+3. Fill in:
+- zip code
+- pages to load
+- include/exclude fields with the values you want to filter, separated by new lines
+4. Click on Run Script button

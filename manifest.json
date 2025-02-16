@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Tesla Infinite Scroll Filter",
+    "name": "Tesla Inventory Filter",
     "version": "1.0",
-    "description": "Load the page, fill input, wait for reload, scroll infinite, and then filter articles.",
-    "permissions": ["scripting", "activeTab"],
+    "description": "Filters for Tesla Inventory",
+    "permissions": ["scripting", "activeTab", "storage"],
     "host_permissions": ["<all_urls>"],
     "action": {
       "default_popup": "popup.html",
