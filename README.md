@@ -1,5 +1,5 @@
-## Tesla Inventory Filter
-Crome extension to filter Tesla inventory, that I made for myself. It's not perfect, but it works for me. I'm sharing it in case it's useful for someone else.
+## Tesla Inventory Filter <img src="https://github.com/ilian6806/tesla-inventory-filter/blob/master/logo.png?raw=true" width="40" height="40" align="right">
+Tesla Inventory site has only a few filters and it's hard to find the car you want. This script allows you to filter the inventory by more options. I made for myself. I'm sharing it in case it's useful for someone else.
 
 ### How to install
 1. Download the files from this repository
